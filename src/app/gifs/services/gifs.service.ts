@@ -34,9 +34,7 @@ export class GifsService {
       this.gifList = resp.data;
     });
 
-    // fetch(`https://api.giphy.com/v1/gifs/search?api_key=6hYOFfzGgsGuwL7MYL3B6EflJLSK3APF&q=${tag}&limit=10`)
-    // .then(response => response.json())
-    // .then(data => console.log(data));
+
 
   }
 
