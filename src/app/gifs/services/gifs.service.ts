@@ -50,8 +50,6 @@ export class GifsService {
       this.gifList = resp.data;
     });
 
-
-
   }
 
   private organizeHistory(tag: string): void {
